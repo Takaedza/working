@@ -12,5 +12,11 @@ node_modules
 # will be manually created by you or dynamically # created on the hosting server
 .env
 
+# pnpm-lock.yaml is a lock file for pnpm and should not be edited manually.
+pnpm-lock.yaml
+
 # .DS_Store is only for Mac users
 **/.DS_Store
+
+# readme file not to be synced
+README.md
