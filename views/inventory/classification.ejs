@@ -1,0 +1,13 @@
+<%/* building the content heading */%>
+<% if (title) { %>
+    <h1>
+        <%= title %>
+    </h1>
+    <% } else { res.redirect('/') } %>
+
+<% /* building the content */%>
+
+<%# messages() %>
+
+<% /*The Inventory Items Display */%>
+<%- grid %>
